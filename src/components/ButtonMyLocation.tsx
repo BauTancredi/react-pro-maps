@@ -17,7 +17,14 @@ export const ButtonMyLocation = () => {
     <div
       className="btn btn-primary"
       onClick={onClick}
-      style={{ position: 'fixed', top: '20px', right: '20px', zIndex: 999 }}
+      style={{
+        position: 'fixed',
+        top: '20px',
+        right: '20px',
+        zIndex: 999,
+        backgroundColor: '#61DAFB',
+        border: 0,
+      }}
     >
       My location
     </div>
